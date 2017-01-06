@@ -1,0 +1,2 @@
+# Compornent_common_footer-categorylink02
+カテゴリーリンク型のフッター
