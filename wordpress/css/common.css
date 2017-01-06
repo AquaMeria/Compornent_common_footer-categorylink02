@@ -1,0 +1,99 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+┏┓
+┗■ INDEX
+
+|   01.フッター
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*--------------------
+    00.初期設定
+--------------------*/
+body{
+    background: #F0F0F0;
+    color:#262626;
+}
+
+/*--------------------
+    04.フッター
+--------------------*/
+.footer {
+    background: #2F3032;
+    float: left;
+    padding: 6em 0 0 0;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 3em 0;
+    }
+}
+.footer [class*="col"] {
+    padding-bottom: 30px;
+}
+.footer__subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.footer__content {
+    color: #848484;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 1.5em;
+}
+.footer__content--category {
+    float: left;
+    margin: 0;
+    margin-right: 10%;
+    padding: 0;
+}
+.footer__content--category__list {
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+}
+.footer__content--category__list__link {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none !important;
+}
+.footer__content--category__list__link:hover {
+    color: #fff;
+}
+.footer__content--social{
+    margin: 0;
+    padding: 0;
+}
+.footer__content--social__list {
+    display: block !important;
+}
+.footer__content--social__list__link {
+    color: rgba(255, 255, 255, 0.4);    
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.footer__content--social__list__link:hover {
+    color: #fff;
+}
+.footer__content--social__list__link__icon {
+    float: left;
+    font-size: 2rem;
+    width: 4rem;
+}
+.footer__copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color:#fff;
+    float: left;
+    font-size: 1.5rem;
+    margin-top: 4rem !important;
+    padding: 3em;
+    width: 100%;
+}
+@media screen and (max-width: 480px) {
+    .footer__copyright {
+        text-align: left !important;
+    }
+    .footer__copyright__brand {
+        display: inline;
+    }
+}
